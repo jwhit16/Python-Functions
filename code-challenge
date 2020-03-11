@@ -1,0 +1,73 @@
+# Write a function named average() that has two parameters named num1 and num2. The function should return the average of these two numbers. 
+
+def average(num1, num2):
+  av = (num1 + num2) / 2
+  return(av)
+
+
+# Write a function named tenth_power() that has one parameter named num. The function should return num raised to the 10th power. 
+
+def tenth_power(num):
+  return(num**10)
+  
+
+# Write a function named introduction() that has two parameters named first_name and last_name. The function should return the last_name, followed by a comma, a space, first_name another space, and finally last_name. def introduction(first_name, last_name) 
+
+ return "{last}, {first} {last}".format(first=first_name,last=last_name)
+ 
+ 
+# Write a function named square_root() that has one parameter named num. Use exponents (**) to return the square root of num. 
+
+def square_root(num):
+  return(num**.5)
+  
+  
+# Create a function called tip() that has two parameters named total and percentage. 
+
+def tip(total, percentage):
+  return(total * (percentage/100))
+  
+  
+# Create a function called win_percentage() that takes two parameters named wins and losses. 
+
+def win_percentage(wins, losses):
+  total = wins+losses
+  ratio_won = wins/total
+  return ratio_won*100
+  
+
+# Write a function named first_three_multiples() that has one parameter named num. This function should print the first three multiples of num. Then, it should return the third multiple. 
+
+def first_three_multiples(num):
+  print(num*1)
+  print(num*2)
+  print(num*3)
+  return(num*3)
+  
+  
+# Write a function named dog_years() that has two parameters named name and age. The function should compute the age in dog years and return the following string: "{name}, you are {age} years old in dog years" 
+  
+  def dog_years(name, age):
+  years = age*7
+  return name + ", you are " + str(years) + " years old in dog years"
+ 
+ 
+# Write a function named remainder() that has two parameters named num1 and num2. The function should return the remainder of twice num1 divided by half of num2. 
+ 
+def remainder(num1, num2):
+  twice = num1 * 2
+  half = num2 / 2
+  return(twice%half)
+ 
+ 
+# Create a function named lots_of_math(). This function should have four parameters named a, b, c, and d. The function should print 3 lines and return 1 value. First, the sum of a and b. Second, d subtracted from c. Third, the first number printed, multiplied by the second number printed. Finally, it should return the third number printed mod a.
+
+def lots_of_math(a,b,c,d):
+  num1 = a+b
+  num2 = c-d
+  num3 = num1*num2
+  print(num1)
+  print(num2)
+  print(num3)
+  return num3 % a
+ 
